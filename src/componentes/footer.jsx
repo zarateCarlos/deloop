@@ -9,12 +9,12 @@ const Footer = () => {
             </div>
             <footer>
                 <div className="re">
-                    <img src="/rayos.jpg" alt="" />
-                    <img src="/rayos.jpg" alt="" />
-                    <img src="/rayos.jpg" alt="" />
-                    <img src="/rayos.jpg" alt="" />
-                    <img src="/rayos.jpg" alt="" />
-                    <img src="/rayos.jpg" alt="" />
+                    <img src="/face.png" alt="" />
+                    <img src="/insta.png" alt="" />
+                    <img src="/tikkk.png" alt="" />
+                    <img src="/spotify.png" alt="" />
+                    <img src="/youtube.png" alt="" />
+                    <img src="/image2.png" alt="" />
 
                 </div>
                 <div className="contacto">

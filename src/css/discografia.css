@@ -34,9 +34,10 @@
 .card {
     position: relative;
     width: 300px;
-    height: 220px;
-    background: #ffffff;
-    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+    height: 300px;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
     transition: 0.5s;
     display: flex;
     justify-content: center;
@@ -46,6 +47,10 @@
     
 
 
+}
+.pepepe{
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .card:hover {
@@ -58,8 +63,8 @@
     position: absolute;
     top: 20px;
     width: 250px;
-    height: 150px;
-    background: #333;
+    height: 250px;
+    background: #171717;
     transition: 0.7s;
     z-index: 2000;
 
@@ -116,7 +121,7 @@
     display: flex;
     flex-direction: column;
     transition: 0.7s;
-    height: 30px;
+    height: 40px;
     overflow: hidden;
 
 
@@ -140,7 +145,7 @@
 
 .card:hover .content {
     top: 100px;
-    height: 200px;
+    height: 210px;
 }
 
 

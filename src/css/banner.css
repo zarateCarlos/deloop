@@ -4,27 +4,59 @@
     justify-content: center;
     width: 80%;
     margin: 0 auto;
-    height: 80vh;
+    height: 85vh;
+    white-space: nowrap; 
 
 }
-
-
-
 
 .flayer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+    position: relative;
     width: 100%;
+    height: 100%;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+.ver {
+    visibility: hidden;
+}
+.todos{
+width: 500px;
+position: absolute;
+right: 0px;
+bottom: 50px;
 
 
 }
+.loop{
+width: 270px;
+position: absolute;
+bottom: 250px;
+left: 300px;
 
-.flayer img {
- width: 1000px;
- height: 500px;
 }
+.fer{
+width: 200px;
+position: absolute;
+left: 0px;
+bottom: 220px;
+z-index: -1;
+}
+.rodo{
+width: 120px;
+position: absolute;
+bottom: 180px;
+left: 190px;
+z-index: 1;
+
+}
+.tito{
+width: 320px;
+position: absolute;
+left: 20px;
+bottom: 30px;
+}
+
+
 
 .slick-dots {
     bottom: -27px;
