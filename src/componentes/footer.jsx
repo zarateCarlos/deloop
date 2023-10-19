@@ -14,15 +14,12 @@ const Footer = () => {
                     <img src="/tikkk.png" alt="" />
                     <img src="/spotify.png" alt="" />
                     <img src="/youtube.png" alt="" />
-                    <img src="/image2.png" alt="" />
 
                 </div>
                 <div className="contacto">
 
+                    <img src="/logo2.png" alt="" />
 
-                    <div className="Deloop">
-                        <img src="/logo2.png" alt="" />
-                    </div>
                     <div className="datos">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloribus labore ad

@@ -6,13 +6,16 @@ import './index.css'
 import Discografia from './componentes/Discografia.jsx'
 import Footer from './componentes/footer.jsx'
 import Biografia from './componentes/Biografia.jsx'
+import Fondo from './componentes/Fondo.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Fondo></Fondo>
     <Header />
     <Banner />
     <Biografia/>
     <Discografia/>
     <Footer/>
+    
   </React.StrictMode>,
 )

@@ -4,84 +4,180 @@
     justify-content: center;
     width: 80%;
     margin: 0 auto;
-    height: 85vh;
-    white-space: nowrap; 
+    height: 100%;
+    white-space: nowrap;
+
 
 }
 
 .flayer {
-    position: relative;
+
     width: 100%;
     height: 100%;
-    white-space: nowrap; 
-    overflow: hidden;
-}
-.ver {
-    visibility: hidden;
-}
-.todos{
-width: 500px;
-position: absolute;
-right: 0px;
-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px 0;
 
 
 }
-.loop{
-width: 270px;
-position: absolute;
-bottom: 250px;
-left: 300px;
 
-}
-.fer{
-width: 200px;
-position: absolute;
-left: 0px;
-bottom: 220px;
-z-index: -1;
-}
-.rodo{
-width: 120px;
-position: absolute;
-bottom: 180px;
-left: 190px;
-z-index: 1;
-
-}
-.tito{
-width: 320px;
-position: absolute;
-left: 20px;
-bottom: 30px;
+.staff {
+    display: flex;
+    width: 230px;
+    position: relative;
 }
 
-
-
-.slick-dots {
-    bottom: -27px;
+.flayer img:hover {
+    border: 2px solid rgba(247, 0, 255, 0.811);
+    box-shadow: inset 0 0 15px rgb(230, 0, 255), 0 0 15px rgb(234, 0, 255);
+    padding: 10px;
 }
 
-@media screen and (max-width: 1024px) {}
+.flayer img:hover+.desc{
+    transform: translateY(20px);
+    opacity: 1;
 
-@media screen and (max-width: 768px) {
+}
+.flayer img:hover+.mate {
+    transform: translateY(20px);
+    opacity: 1;
+}
 
-    .flayer img {
-        border-radius: 5px;
-        width: 100%;
-        height: 100%;
-    }
+.flayer img:hover+.descripcion {
+    transform: translateY(20px);
+    opacity: 1;
+}
 
+.desc {
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    transform: translateY(-30px);
+    transition: 500ms all ease;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+    transform: translateX(-70%);
+}
+.mate{
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    transform: translateY(-30px);
+    transition: 500ms all ease;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    right: 55%;
+    transform: translateX(50%);
+}
+
+
+.descripcion {
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    transform: translateY(-30px);
+    transition: 500ms all ease;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    right: 70%;
+    transform: translateX(70%);
+}
+
+.flayer img {
+    transition: 0.3s all ease;
+
+}
+
+
+.fer {
+    width: 100%;
+    padding: 10px;
+    border: 5px solid rgba(255, 255, 255, 0.523);
+}
+
+.rodo {
+    width: 100%;
+
+}
+
+.mateo {
+    width: 100%;
+    ;
+
+}
+
+.tito {
+    width: 100%;
+}
+
+.vivir {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1024px) {
     .hero {
-        height: 100%;
+        width: 100%;
     }
 
     .flayer {
-        height: 140px;
+        gap: 50px;
+        padding: 20px;
     }
 
-    .frase {
-        margin-top: 50px;
-        font-size: 20px;
+    .fer,
+    .tito,
+    .mateo,
+    .rodo {
+        width: 140px;
     }
+
+    .vivir {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .staff {
+        width: 150px;
+    }
+
+    .fer,
+    .tito,
+    .mateo,
+    .rodo {
+        width: 100%;
+    }
+
+    .flayer {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .vivir {
+        display: block;
+        font-family: 'Rock Salt', cursive;
+        color: aliceblue;
+        margin-top: 40px;
+    }
+
 }

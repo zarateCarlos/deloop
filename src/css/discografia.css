@@ -11,7 +11,7 @@
     backface-visibility: hidden;
     overflow: hidden;
     padding: 80px 50px;
-    
+
 }
 
 .disco {
@@ -35,7 +35,7 @@
     position: relative;
     width: 300px;
     height: 300px;
-  
+
     background-repeat: no-repeat;
     background-size: cover;
     transition: 0.5s;
@@ -44,11 +44,12 @@
     margin-top: 20px;
     backface-visibility: hidden;
 
-    
+
 
 
 }
-.pepepe{
+
+.pepepe {
     width: 100%;
     box-sizing: border-box;
 }
@@ -123,6 +124,7 @@
     transition: 0.7s;
     height: 40px;
     overflow: hidden;
+    opacity: 0.8;
 
 
 
@@ -133,6 +135,18 @@
     justify-content: center;
     gap: 10px;
 }
+
+.red img {
+    opacity: 0.9;
+    transition: 300ms all ease;
+}
+
+.red img:hover {
+    opacity: 1;
+    scale: 1.2;
+    filter: saturate(1.5);
+}
+
 
 .redes {
     width: 50px;
@@ -148,45 +162,62 @@
     height: 210px;
 }
 
+.celu {
+    display: none;
+}
 
 
-
-
-@media screen and (max-width: 768px) {
-    .card {
-        margin: 10px;
-        height: 220px;
-        width: 270px;
+@media screen and (max-width: 1024px) {
+    .disco {
+        width: 300px;
+        height: 50px;
+        margin-bottom: 30px;
     }
+
+    .disco h2 {
+        font-size: 25px;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
 
     .container {
-        overflow: visible;
-        padding: 10px;
-
+        display: none;
     }
 
-    .imgBx {
-        width: 220px;
-        height: 150px;
+    .celu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 5px;
+        background-color: #ff0000;
     }
 
-
-
-    .card:hover .content {
-        top: 100px;
-        height: 270px;
+    .album {
+        width: 100%;
+        padding: 5px;
+        background-color: antiquewhite;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .album p{
+        text-transform: uppercase;
     }
 
-    .content {
-        top: 180px;
+    .link {
+        display: flex;
+        gap: 10px;
     }
 
-    .content h2 {
-        font-size: 20px;
+    .album img {
+        width: 50px;
     }
 
-    .content p {
-        font-size: 13px;
-    }
 
 }

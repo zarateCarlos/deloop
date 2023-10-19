@@ -17,10 +17,9 @@
 
 
 footer {
-    width: 90%;
+    width: 100%;
     margin: 20px auto 50px;
-    height: 70vh;
-    padding: 5px;
+    height: 100%;
 }
 
 .re {
@@ -35,8 +34,7 @@ footer {
     width: 100px;
     height: 100px;
     transition: 300ms all ease;
-    opacity: 0.5;
-    filter: contrast(2);
+
 
 }
 
@@ -49,26 +47,89 @@ footer {
 
 
 .contacto {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 50px;
+    justify-content: space-around;
+    margin-top: 40px;
 }
+
+.contacto img {
+    width: 250px;
+}
+
+.datos {
+    height: 250px;
+    width: 500px;
+    padding: 10px;
+    background-image: url(/public/afiche_horizontal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+
+
 
 .datos p {
     font-family: 'Rock Salt', cursive;
-    font-weight: 700;
-    font-size: 40px;
 }
 
-.Deloop {
-    height: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 10px 20px;
+@media screen and (max-width: 1024px) {
+    .descubrinos {
+        width: 300px;
+        height: 65px;
+    }
+
+    .descubrinos h2 {
+        font-size: 25px;
+    }
+
+    .re img {
+        width: 80px;
+        height: 80px;
+    }
+
 }
 
-.Deloop img {
-    width: 250px;
+
+
+@media screen and (max-width: 767px) {
+    .re {
+        gap: 10px;
+    }
+
+    .re img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .datos {
+
+        width: 80%;
+        height: 200px;
+    }
+
+    .datos p {
+        font-size: 7px;
+    }
+
+    .contacto img {
+        display: none;
+    }
+
+    .contacto {
+        margin-top: -20px;
+    }
+
+    .descubrinos {
+        margin-top: 30px;
+        width: 250px;
+        height: 40px;
+    }
+
+    .descubrinos h2 {
+        font-size: 20px;
+    }
 }
