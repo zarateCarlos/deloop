@@ -11,6 +11,7 @@
     backface-visibility: hidden;
     overflow: hidden;
     padding: 80px 50px;
+    display: none;
 
 }
 
@@ -218,6 +219,8 @@
     .album img {
         width: 50px;
     }
-
+.spo{
+    width: 100%;
+}
 
 }

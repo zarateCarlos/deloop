@@ -24,7 +24,6 @@ footer {
 
 .re {
     width: 100%;
-    height: 100px;
     gap: 30px;
     display: flex;
     justify-content: center;
@@ -51,20 +50,19 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
-.contacto img {
-    width: 250px;
-}
 
 .datos {
-    height: 250px;
-    width: 500px;
-    padding: 10px;
+    width: 75%;
+    height: 300px;
+    padding: 25px;
     background-image: url(/public/afiche_horizontal.png);
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
+
 
 }
 
@@ -106,7 +104,6 @@ footer {
     }
 
     .datos {
-
         width: 80%;
         height: 200px;
     }
@@ -115,13 +112,7 @@ footer {
         font-size: 7px;
     }
 
-    .contacto img {
-        display: none;
-    }
 
-    .contacto {
-        margin-top: -20px;
-    }
 
     .descubrinos {
         margin-top: 30px;

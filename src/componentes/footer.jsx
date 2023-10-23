@@ -17,9 +17,6 @@ const Footer = () => {
 
                 </div>
                 <div className="contacto">
-
-                    <img src="/logo2.png" alt="" />
-
                     <div className="datos">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloribus labore ad

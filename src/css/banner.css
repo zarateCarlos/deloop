@@ -36,11 +36,12 @@
     padding: 10px;
 }
 
-.flayer img:hover+.desc{
+.flayer img:hover+.desc {
     transform: translateY(20px);
     opacity: 1;
 
 }
+
 .flayer img:hover+.mate {
     transform: translateY(20px);
     opacity: 1;
@@ -65,7 +66,8 @@
     left: 70%;
     transform: translateX(-70%);
 }
-.mate{
+
+.mate {
     text-align: center;
     font-family: 'Rock Salt', cursive;
     font-size: 30px;
@@ -110,17 +112,21 @@
 
 .rodo {
     width: 100%;
-
+    padding: 10px;
+    border: 5px solid rgba(255, 255, 255, 0.523);
 }
 
 .mateo {
     width: 100%;
-    ;
+    padding: 10px;
+    border: 5px solid rgba(255, 255, 255, 0.523);
 
 }
 
 .tito {
     width: 100%;
+    padding: 10px;
+    border: 5px solid rgba(255, 255, 255, 0.523);
 }
 
 .vivir {
@@ -135,7 +141,8 @@
     }
 
     .flayer {
-        gap: 50px;
+
+        gap: 30px;
         padding: 20px;
     }
 
@@ -179,5 +186,70 @@
         color: aliceblue;
         margin-top: 40px;
     }
+
+
+
+    .flayer img:hover+.desc {
+        transform: translateY(20px);
+        opacity: 1;
+
+    }
+
+    .flayer img:hover+.mate {
+        transform: translateY(20px);
+        opacity: 1;
+    }
+
+    .flayer img:hover+.descripcion {
+        transform: translateY(20px);
+        opacity: 1;
+    }
+
+    .desc {
+        text-align: center;
+        font-family: 'Rock Salt', cursive;
+        font-size: 30px;
+        font-weight: bolder;
+        color: rgb(255, 255, 255);
+        transform: translateY(-30px);
+        transition: 500ms all ease;
+        opacity: 0;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-70%);
+    }
+
+    .mate {
+        text-align: center;
+        font-family: 'Rock Salt', cursive;
+        font-size: 30px;
+        font-weight: bolder;
+        color: rgb(255, 255, 255);
+        transform: translateY(-30px);
+        transition: 500ms all ease;
+        opacity: 0;
+        position: absolute;
+        bottom: 0;
+        right: 35%;
+        transform: translateX(50%);
+    }
+
+
+    .descripcion {
+        text-align: center;
+        font-family: 'Rock Salt', cursive;
+        font-size: 30px;
+        font-weight: bolder;
+        color: rgb(255, 255, 255);
+        transform: translateY(-30px);
+        transition: 500ms all ease;
+        opacity: 0;
+        position: absolute;
+        bottom: 0;
+        right: 60%;
+        transform: translateX(70%);
+    }
+
 
 }
