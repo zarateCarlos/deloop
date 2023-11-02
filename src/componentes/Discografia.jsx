@@ -48,16 +48,26 @@ const Discografia = () => {
             </div>
 
             <div className="spo">
-                <iframe
+                {/* <iframe
                     style={{ borderRadius: "12px" }}
-                    src="https://open.spotify.com/embed/artist/5I51dr5CZzrr4PlZJm4fUW?utm_source=generator&theme=0"
-                    width="90%"
+                    src="https://open.spotify.com/embed/playlist/0sDVIgwGLrCMYHiabYunOx?utm_source=generator&theme=0"
+                    width="80%"
                     height="352"
                     frameBorder="0"
-                    allowFullScreen=""
+                    allowfullscreen=""
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"
-                ></iframe>
+                    loading="lazy">
+
+                </iframe> */}
+                <iframe
+                    style={{ borderRadius: "12px" }}
+                    src="https://open.spotify.com/embed/playlist/0sDVIgwGLrCMYHiabYunOx?utm_source=generator&theme=0"
+                    width="80%"
+                    height="352"
+                    frameBorder="0"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
 
             </div>
 
