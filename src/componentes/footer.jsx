@@ -58,10 +58,10 @@ const Footer = () => {
                         Buenos Aires - Argentina
                     </p>
                 <div className="nosotros">
-                <a href="mailto:enlimonados@gmail.com">
+                <a href="mailto:marianycharlie.contacto@gmail.com">
                         <img src="/mail.png" alt="email" />
                     </a>
-                    <a href="#" target="_blank" >
+                    <a href="https://www.instagram.com/marianycharlie/" target="_blank" >
                         <img src="/insta.png" alt="instagram" />
                     </a>
                 </div>
